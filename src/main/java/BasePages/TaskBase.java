@@ -171,7 +171,7 @@ public   TaskBase AddTagName (String TestTag){
 }
 public   TaskBase ManualClock   ( ) throws InterruptedException {
           click(By.xpath("//div[@class='ant-col ant-col-5 gutter-row col-animate tasksModeSection'][2]"));
-          Thread.sleep(9000);
+          Thread.sleep(3000);
           click(By.xpath("//span[@class='timePickerWrapper___1vw78'][1]"));
           Thread.sleep(3000);
           click(By.xpath("//div[@class='ant-time-picker-panel-select'][1]//li[text()='01']"));
@@ -203,7 +203,7 @@ public  TaskBase dalilyReportValid(String horse,  String minuts){
          click(By.xpath("//button[@class='ant-btn secondaryBtn___LZHjR']"));
          click(By.xpath("//span[@class='plusIcon___2n91m']"));
          click(By.xpath("//div[@class='project___V_LOZ ant-select ant-select-enabled' ]"));
-         click(By.xpath("//li[text()='A grfgrgrg']"));
+         click(By.xpath("//li[text()='Project Name']"));
          driver.findElement(By.xpath("//input[@class='hour___2fJp9' ]")).sendKeys(horse);
          driver.findElement(By.xpath("//input[@class='minute___2HqOe' ]")).sendKeys(minuts);
 
@@ -274,7 +274,7 @@ public    TaskBase  buttonChangeTime(String timer, String timerr ){
 
 public  TaskBase viewChangeProjectTag (){
         click(By.xpath("//span[@class='projectName___XDIry']"));
-         gclick(By.xpath("//span[text()='Project p']"));
+        click(By.xpath("//span[text()='Project p']"));
         click(By.xpath("//span[@class='projectName___XDIry']"));
         click(By.xpath("//span[text()='12121']"));
         click(By.xpath("//button[text()='Save']"));
@@ -312,6 +312,36 @@ public  TaskBase    writeCommentEditDelete (String write){
 
     return this;
 }
+public  TaskBase tuskNameClickButton(){
+        isElementDisplayed(By.xpath("//td[@class='ant-table-row-cell-ellipsis ant-table-row-cell-break-word']"));
+        click(By.xpath("//td[@class='ant-table-row-cell-ellipsis ant-table-row-cell-break-word']"));
+        isElementDisplayed(By.xpath("//textarea[@class='ant-input textDescription___2PHDV']"));
+
+
+        return  this;
+}
+
+
+
+public  TaskBase groupMultipleTusk (String name) throws InterruptedException {
+
+        for (int i=0; i<5; i++){
+
+            driver.findElement(By.xpath("//input[@class='ant-input ant-select-search__field']")).sendKeys(name);
+            click(By.xpath("//div[@class='ant-col ant-col-5 gutter-row col-animate tasksModeSection'][1]"));
+            Thread.sleep(2000);
+            click(By.xpath("//span[@class='iconWrapper___at7Wi']"));
+
+
+
+        }
+        click(By.xpath("//label[@class='groupingBtn___1622p ant-radio-button-wrapper']"));
+        click(By.xpath("//span[@class='expanded-icon']"));
+
+
+        return this;
+}
+
 }
 
 

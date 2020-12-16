@@ -88,7 +88,7 @@ public class TaskPage extends MainPage{
     public  void  RunTask () throws InterruptedException {
 
        taskBase .addTask("TestTusk113")
-                .ChooseProjectTags()
+                //.ChooseProjectTags()
                .ManualClock();
 
 
@@ -181,8 +181,8 @@ public class TaskPage extends MainPage{
                 .TheTaskTableMenu()
                 .viewButton()
                 .writeCommentEditDelete("efefefefe");
-    }
-    @Test
+
+    } @Test
     public  void   dailyyReportPopup () throws InterruptedException {
 
         taskBase .addTask("TestTusk113")
@@ -191,7 +191,32 @@ public class TaskPage extends MainPage{
 
 
 
+    }@Test
+    public  void tuskNameButton() throws InterruptedException{
+
+        taskBase .addTask("TestTusk113")
+                 .ManualClock( )
+                 .tuskNameClickButton();
+
+
+
+
+
+    }@Test
+    public  void  groupTusk () throws InterruptedException{
+       taskBase
+                     .groupMultipleTusk("TestTusk113");
+
+
+
+
+
+
     }
+
+
+
+
 
 
 
