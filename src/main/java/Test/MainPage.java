@@ -29,16 +29,16 @@ public class MainPage {
     taskBase = PageFactory.initElements(driver,TaskBase.class);
 
        }
-//
-//   @AfterEach
-//
-//    public  void Finish(){
-//    driver.quit();
-//
-//
-//
-//    }
-//
-//
+
+   @AfterEach
+
+    public  void Finish(){
+    driver.quit();
+
+
+
+    }
+
+
 
 }

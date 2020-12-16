@@ -171,17 +171,21 @@ public   TaskBase AddTagName (String TestTag){
 }
 public   TaskBase ManualClock   ( ) throws InterruptedException {
           click(By.xpath("//div[@class='ant-col ant-col-5 gutter-row col-animate tasksModeSection'][2]"));
+          Thread.sleep(9000);
           click(By.xpath("//span[@class='timePickerWrapper___1vw78'][1]"));
+          Thread.sleep(3000);
           click(By.xpath("//div[@class='ant-time-picker-panel-select'][1]//li[text()='01']"));
-          Thread.sleep(200);
-          click(By.xpath("//div[@class='ant-time-picker-panel-select'][2]//li[5]"));
-          Thread.sleep(200);
+
+          //click(By.xpath("//div[@class='ant-time-picker-panel-select'][2]//li[text()='02']"));
+          Thread.sleep(3000);
           click(By.xpath("//span[@class='timePickerWrapper___1vw78'][2]"));
+          Thread.sleep(3000);
           click(By.xpath("//div[@class='ant-time-picker-panel-select'][1]//li[text()='05']"));
-          Thread.sleep(200);
-          click(By.xpath("//div[@class='ant-time-picker-panel-select'][2]//li[text()='03']"));
+
+          //click(By.xpath("//div[@class='ant-time-picker-panel-select'][2]//li[text()='03']"));
+          Thread.sleep(3000);
           click(By.xpath("//button[@class='ant-btn manualModeActionsText___2IGeT rightMargin___2K7mU ant-btn-link']"));
-          isElementDisplayed(By.xpath("//tr[@class='ant-table-row ant-table-row-level-0']"));
+
 
     return this;
 }
@@ -270,7 +274,7 @@ public    TaskBase  buttonChangeTime(String timer, String timerr ){
 
 public  TaskBase viewChangeProjectTag (){
         click(By.xpath("//span[@class='projectName___XDIry']"));
-        click(By.xpath("//span[text()='Project p']"));
+         gclick(By.xpath("//span[text()='Project p']"));
         click(By.xpath("//span[@class='projectName___XDIry']"));
         click(By.xpath("//span[text()='12121']"));
         click(By.xpath("//button[text()='Save']"));

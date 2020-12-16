@@ -8,7 +8,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dafa0d2-4d98-4f63-86d1-02767cdb36f3" name="Default Changelist" comment="" />
+    <list default="true" id="6dafa0d2-4d98-4f63-86d1-02767cdb36f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasePages/TaskBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePages/TaskBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BasePages/TaskBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasePages/TaskBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/MainPage.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.TaskPage.dailyyReportPopup">
+  <component name="RunManager" selected="JUnit.TaskPage">
     <configuration name="TaskPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WorkyRappy" />
       <extension name="coverage">
@@ -56,7 +62,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskPage.ClickViewButtonTellUsMore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskPage.ManualMode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WorkyRappy" />
       <extension name="coverage">
         <pattern>
@@ -66,13 +72,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
-      <option name="METHOD_NAME" value="ClickViewButtonTellUsMore" />
+      <option name="METHOD_NAME" value="ManualMode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskPage.ClickViewButtonWED" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskPage.RunTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WorkyRappy" />
       <extension name="coverage">
         <pattern>
@@ -82,7 +88,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
-      <option name="METHOD_NAME" value="ClickViewButtonWED" />
+      <option name="METHOD_NAME" value="RunTask" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,10 +128,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TaskPage.dailyyReportPopup" />
-        <item itemvalue="JUnit.TaskPage.ClickViewButtonWED" />
-        <item itemvalue="JUnit.TaskPage.ClickViewButtonTellUsMore" />
         <item itemvalue="JUnit.TaskPage" />
+        <item itemvalue="JUnit.TaskPage.ManualMode" />
+        <item itemvalue="JUnit.TaskPage.RunTask" />
+        <item itemvalue="JUnit.TaskPage.dailyyReportPopup" />
         <item itemvalue="JUnit.TaskPage.TuskPlay" />
       </list>
     </recent_temporary>
@@ -171,34 +177,34 @@
     </state>
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607602384339" />
     <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606205818384" />
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1607693715251">
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1608041275397">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="384" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771116" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.7.1920.1040@0.0.1366.728" timestamp="1607427176038" />
     <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607604762163" />
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607693715251" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1607693715250">
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1608041275397" />
+    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1608041275397">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="384" key="GridCell.Tab.0.center/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771116" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.7.1920.1040@0.0.1366.728" timestamp="1607427176037" />
     <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607604762163" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607693715250" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1607693715250">
+    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1608041275397" />
+    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1608041275397">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="384" key="GridCell.Tab.0.left/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771116" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.7.1920.1040@0.0.1366.728" timestamp="1607427176037" />
     <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607604762163" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607693715250" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1607693715250">
+    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1608041275397" />
+    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1608041275397">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="384" key="GridCell.Tab.0.right/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771116" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.7.1920.1040@0.0.1366.728" timestamp="1607427176038" />
     <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607604762163" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607693715250" />
+    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1608041275397" />
     <state width="1877" height="384" key="GridCell.Tab.1.bottom" timestamp="1607607236743">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
