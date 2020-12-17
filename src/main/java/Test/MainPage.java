@@ -2,6 +2,7 @@ package Test;
 
 import BasePages.LoginBase;
 import BasePages.TaskBase;
+import BasePages.UserDetailBase;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
@@ -17,6 +18,7 @@ public class MainPage {
     WebDriver driver;
    public LoginBase loginbase;
    public TaskBase taskBase;
+   public UserDetailBase userDetailBase;
 
 
     @BeforeEach
@@ -27,6 +29,7 @@ public class MainPage {
     driver.manage().timeouts().implicitlyWait(19, TimeUnit.SECONDS);
     loginbase = PageFactory.initElements(driver,LoginBase.class);
     taskBase = PageFactory.initElements(driver,TaskBase.class);
+    userDetailBase = PageFactory.initElements(driver,UserDetailBase.class);
 
        }
 
