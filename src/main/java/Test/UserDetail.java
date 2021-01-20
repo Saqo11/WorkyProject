@@ -9,8 +9,8 @@ public class UserDetail extends MainPage {
     @BeforeEach
  public   void  mainUserDetail (){
         loginbase.goTo()
-                .login("utest202010@gmail.com")
-                .pass("12345678")
+                .login("u","test202010@gmail.com" )
+                .pass("12345678", "2345678")
                 .chooseTask()
                 .isCorrect();
 

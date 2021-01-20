@@ -33,7 +33,7 @@ public class MainPage {
 
        }
 
-   @AfterEach
+ @AfterEach
 
     public  void Finish(){
     driver.quit();
@@ -41,6 +41,8 @@ public class MainPage {
 
 
     }
+
+
 
 
 

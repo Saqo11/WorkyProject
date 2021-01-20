@@ -119,10 +119,12 @@ public TaskBase removeElements ()  {
 
  }
 
- public  TaskBase play()  {
+ public  TaskBase play()   {
 
 
-   click(By.xpath("//div[@class='ant-col ant-col-5 gutter-row col-animate tasksModeSection'][1]"));
+
+     click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[3]/button"));
+     isElementDisplayed(By.xpath("//span[@class='iconWrapper___at7Wi']"));
 
      return this;
  }
@@ -132,8 +134,8 @@ public   TaskBase  ChooseProjectTags(){
           click(By.xpath("//span[@class='taskBarText___2dYYK']"));
           click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div/ul/div/li[3]/span[2]"));
           click(By.xpath("//div[@class='tagsProjectsWrapper___2auP8']"));
-          isElementDisplayed(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[19]/span[2]"));
-          click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[19]/span[2]"));
+          //isElementDisplayed(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[19]/span[2]"));
+          click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div/ul/div/li[6]/span[2]"));
 
         return  this;
 
@@ -162,7 +164,7 @@ public   TaskBase AddTag (){
     return this;
 }
 public   TaskBase AddTagName (String TestTag){
-          driver.findElement(By.xpath("//input[@placeholder='ADD A TAG NAME']")).sendKeys(TestTag);
+          driver.findElement(By.xpath("//input[@placeholder='Add a tag name...' ]")).sendKeys(TestTag);
           click(By.xpath("//span[@class='colorBoxCheckmark___2mKEU']"));
           click(By.xpath("//button[@class='ant-btn addTagBtn___2mkv6 ant-btn-primary']"));
 
@@ -170,7 +172,7 @@ public   TaskBase AddTagName (String TestTag){
     return this;
 }
 public   TaskBase ManualClock   ( ) throws InterruptedException {
-          click(By.xpath("//div[@class='ant-col ant-col-5 gutter-row col-animate tasksModeSection'][2]"));
+          click(By.xpath("//div[@class='ant-col ant-col-5 gutter-row col-animate tasksModeSection timerModePlayIconHoverable___1_N_W'][2]"));
           Thread.sleep(3000);
           click(By.xpath("//span[@class='timePickerWrapper___1vw78'][1]"));
           Thread.sleep(3000);
@@ -272,11 +274,15 @@ public    TaskBase  buttonChangeTime(String timer, String timerr ){
     return this;
 }
 
-public  TaskBase viewChangeProjectTag (){
+public  TaskBase viewChangeProjectTag () throws InterruptedException {
         click(By.xpath("//span[@class='projectName___XDIry']"));
-        click(By.xpath("//span[text()='Project p']"));
-        click(By.xpath("//span[@class='projectName___XDIry']"));
-        click(By.xpath("//span[text()='12121']"));
+        Thread.sleep(2000);
+
+    click(By.xpath("//span[text()='test']"));
+
+
+      click(By.xpath("//span[@class='projectName___XDIry']"));
+       click(By.xpath("//div//li//span[text()='Doesntdelete']"));
         click(By.xpath("//button[text()='Save']"));
         isElementDisplayed(By.xpath("//button[@class='ant-btn play-btn']"));
 
@@ -328,8 +334,9 @@ public  TaskBase groupMultipleTusk (String name) throws InterruptedException {
         for (int i=0; i<5; i++){
 
             driver.findElement(By.xpath("//input[@class='ant-input ant-select-search__field']")).sendKeys(name);
-            click(By.xpath("//div[@class='ant-col ant-col-5 gutter-row col-animate tasksModeSection'][1]"));
-            Thread.sleep(2000);
+            Thread.sleep(5000);
+            click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[3]/button"));
+            Thread.sleep(5000);
             click(By.xpath("//span[@class='iconWrapper___at7Wi']"));
 
 
@@ -341,6 +348,27 @@ public  TaskBase groupMultipleTusk (String name) throws InterruptedException {
 
         return this;
 }
+
+   public  TaskBase  ResetDailyReport () {
+
+        try {
+
+            if (driver.findElement(By.xpath("//button[text()='Reset Daily Report']")).isDisplayed()){
+                click(By.xpath("//button[text()='Reset Daily Report']"));
+
+
+
+
+            }
+
+        }
+        catch (Exception e){
+
+
+        }
+
+        return  this;
+   }
 
 }
 

@@ -4,16 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BranchesTreeState">
-    <expand />
-    <select />
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dafa0d2-4d98-4f63-86d1-02767cdb36f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasePages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasePages/LoginBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePages/LoginBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BasePages/TaskBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePages/TaskBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/TaskPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/TaskPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/UserDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/UserDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BasePages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasePages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BasePages/LoginBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasePages/LoginBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/BasePages/TaskBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasePages/TaskBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Test/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/TaskPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/TaskPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskPage.ManualMode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskPage.ClickViewButtonChangeProjectTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WorkyRappy" />
       <extension name="coverage">
         <pattern>
@@ -72,23 +103,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
-      <option name="METHOD_NAME" value="ManualMode" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskPage.RunTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WorkyRappy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
-      <option name="METHOD_NAME" value="RunTask" />
+      <option name="METHOD_NAME" value="ClickViewButtonChangeProjectTag" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,13 +141,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskPage.groupTusk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WorkyRappy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
+      <option name="METHOD_NAME" value="groupTusk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TaskPage" />
-        <item itemvalue="JUnit.TaskPage.ManualMode" />
-        <item itemvalue="JUnit.TaskPage.RunTask" />
-        <item itemvalue="JUnit.TaskPage.dailyyReportPopup" />
+        <item itemvalue="JUnit.TaskPage.groupTusk" />
         <item itemvalue="JUnit.TaskPage.TuskPlay" />
+        <item itemvalue="JUnit.TaskPage.dailyyReportPopup" />
+        <item itemvalue="JUnit.TaskPage.ClickViewButtonChangeProjectTag" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +183,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -164,10 +207,10 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2131" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606129850499" />
-    <state x="2006" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606382859252">
+    <state x="2006" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610347783190">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2006" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606382859252" />
+    <state x="2006" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1610347783189" />
     <state x="2030" y="297" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1606130894029">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
@@ -177,34 +220,34 @@
     </state>
     <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607602384339" />
     <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606205818384" />
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1608041275397">
+    <state width="1877" height="413" key="GridCell.Tab.0.bottom" timestamp="1611146889229">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="384" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771116" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.7.1920.1040@0.0.1366.728" timestamp="1607427176038" />
-    <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607604762163" />
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1608041275397" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1608041275397">
+    <state width="1323" height="108" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610978221361" />
+    <state width="1877" height="413" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611146889229" />
+    <state width="1877" height="413" key="GridCell.Tab.0.center" timestamp="1611146889229">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="384" key="GridCell.Tab.0.center/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771116" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.7.1920.1040@0.0.1366.728" timestamp="1607427176037" />
-    <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607604762163" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1608041275397" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1608041275397">
+    <state width="1323" height="108" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610978221361" />
+    <state width="1877" height="413" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611146889229" />
+    <state width="1877" height="413" key="GridCell.Tab.0.left" timestamp="1611146889229">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="384" key="GridCell.Tab.0.left/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771116" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.7.1920.1040@0.0.1366.728" timestamp="1607427176037" />
-    <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607604762163" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1608041275397" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1608041275397">
+    <state width="1323" height="108" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610978221361" />
+    <state width="1877" height="413" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611146889229" />
+    <state width="1877" height="413" key="GridCell.Tab.0.right" timestamp="1611146889229">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="384" key="GridCell.Tab.0.right/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771116" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.7.1920.1040@0.0.1366.728" timestamp="1607427176038" />
-    <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607604762163" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1608041275397" />
+    <state width="1323" height="108" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610978221361" />
+    <state width="1877" height="413" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611146889229" />
     <state width="1877" height="384" key="GridCell.Tab.1.bottom" timestamp="1607607236743">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
@@ -225,10 +268,15 @@
     </state>
     <state width="1877" height="384" key="GridCell.Tab.1.right/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771117" />
     <state width="1877" height="384" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607607236743" />
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607604723570">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="2069" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608558724672">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607604723570" />
+    <state x="2069" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1608558724672" />
+    <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1610590238183">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="585" height="728" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610590238183" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -243,7 +291,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>66</line>
+          <line>68</line>
           <properties class="Test.TaskPage" method="AddATag">
             <option name="EMULATED" value="true" />
           </properties>
@@ -251,23 +299,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>107</line>
-          <properties class="Test.TaskPage" method="dailyReportPopupValidData">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>40</line>
-          <properties class="Test.TaskPage" method="TuskPlay">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>119</line>
+          <line>121</line>
           <properties class="Test.TaskPage" method="TheTasksTablePlayButton">
             <option name="EMULATED" value="true" />
           </properties>
@@ -275,7 +307,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>126</line>
+          <line>128</line>
           <properties class="Test.TaskPage" method="TaskTableHover">
             <option name="EMULATED" value="true" />
           </properties>
@@ -283,21 +315,50 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>78</line>
+          <line>80</line>
           <properties class="Test.TaskPage" method="ManualMode">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
+          <line>207</line>
+          <properties class="Test.TaskPage" method="groupTusk">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
+          <line>42</line>
+          <properties class="Test.TaskPage" method="TuskPlay">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
+          <line>158</line>
+          <properties class="Test.TaskPage" method="ClickViewButtonChangeProjectTag">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>128</line>
+          <line>130</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>131</line>
+          <line>133</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test/LoginPage.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

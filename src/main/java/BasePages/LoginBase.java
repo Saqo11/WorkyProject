@@ -15,44 +15,51 @@ public LoginBase(WebDriver driver) {
     }
 public LoginBase goTo (){
       driver.get(SITE_URL);
+
       return this;
 
     }
-public LoginBase chooseTask (){
-     click(By.xpath("//*[@id=\"root\"]/div[2]/form/div[3]/button"));
+public LoginBase chooseTask  () {
+     click(By.xpath("//button[@class='ant-btn btn primary-btn']"));
+
      return this;
 
 
     }
 public LoginBase isCorrect (){
 
-    isElementDisplayed(By.xpath("//span[@class='iconButton___1jRTl ant-badge']"));
+    isElementDisplayed(By.xpath("//span[@class='breadcrumb___Q09ij']"));
     return this;
 
    }
-public LoginBase login (String login)  {
+
+
+public LoginBase login (String login,  String log )    {
 
     driver.findElement(By.id("email")).sendKeys(login);
+    driver.findElement(By.id("email")).sendKeys(log);
+
 
     return this;
+
    }
 
-public LoginBase pass (String pass)  {
+public LoginBase pass (String pass, String pas)  {
 
         driver.findElement(By.id("password")).sendKeys(pass);
-
+        driver.findElement(By.id("password")).sendKeys(pas);
         return this;
     }
 
 
     public LoginBase emailMessage(){
 
-        isElementDisplayed(By.xpath("//*[@id=\"root\"]/div[2]/form/div[1]/div/div/div"));
+        isElementDisplayed(By.xpath("//div[text()='Email is required' ]"));
         return this;
 
     }public LoginBase loginMessage(){
 
-        isElementDisplayed(By.xpath("//*[@id=\"root\"]/div[2]/form/div[2]/div/div/div"));
+        isElementDisplayed(By.xpath("//div[text()='Password is required' ]"));
         return this;
 
     }
