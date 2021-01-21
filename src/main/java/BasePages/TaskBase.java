@@ -143,13 +143,13 @@ public   TaskBase  ChooseProjectTags(){
 }
 public   TaskBase  ChooseSeveralTags(){
           click(By.xpath("//span[@class='taskBarText___2dYYK']"));
-          click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div/ul/div/li[3]/span[2]"));
+          click(By.xpath("//span[text()='Doesntdelete']"));
           click(By.xpath("//div[@class='tagsProjectsWrapper___2auP8']"));
-          isElementDisplayed(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[19]/span[2]"));
-          click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[19]/span[2]"));
+          //isElementDisplayed(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[19]/span[2]"));
+          click(By.xpath("//span[text()='test']"));
           click(By.xpath("//div[@class='tagsProjectsWrapper___2auP8']"));
-          isElementDisplayed(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[24]/span[2]"));
-          click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[24]/span[2]"));
+          //isElementDisplayed(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[24]/span[2]"));
+          //click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[24]/span[2]"));
 
         return  this;
 
