@@ -1,0 +1,8 @@
+Test\LoginPage.class
+Test\TaskPage.class
+Test\UserDetail.class
+BasePages\LoginBase.class
+BasePages\UserDetailBase.class
+Test\MainPage.class
+BasePages\BasePage.class
+BasePages\TaskBase.class
