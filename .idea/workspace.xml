@@ -29,24 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dafa0d2-4d98-4f63-86d1-02767cdb36f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/allure-results/49127fa0-0bb0-494f-8f37-61fbed099987-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/baf9ebbc-05c3-42a9-81d6-2644f63d4ac9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c694a870-cf67-4c32-8135-824d8f01e505-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/WorkyRappy-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BasePages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasePages/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BasePages/LoginBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasePages/LoginBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BasePages/TaskBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasePages/TaskBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BasePages/UserDetailBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasePages/UserDetailBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/TaskPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/TaskPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/UserDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/UserDetail.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,14 +49,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1kginkZwmsdZ2rjRATOnsZbkNjf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -82,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.LoginPage.Positive">
+  <component name="RunManager" selected="JUnit.TaskPage (1)">
     <configuration name="LoginPage.Positive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WorkyRappy" />
       <extension name="coverage">
@@ -95,6 +72,21 @@
       <option name="MAIN_CLASS_NAME" value="Test.LoginPage" />
       <option name="METHOD_NAME" value="Positive" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskPage (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-allure-report" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,22 +122,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskPage.groupTusk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WorkyRappy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
-      <option name="METHOD_NAME" value="groupTusk" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test in WorkyRappy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WorkyRappy" />
       <extension name="coverage">
@@ -162,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TaskPage (1)" />
         <item itemvalue="JUnit.LoginPage.Positive" />
         <item itemvalue="JUnit.TaskPage" />
         <item itemvalue="JUnit.TaskPage.ProjectTags" />
         <item itemvalue="JUnit.Test in WorkyRappy" />
-        <item itemvalue="JUnit.TaskPage.groupTusk" />
       </list>
     </recent_temporary>
   </component>
@@ -204,94 +180,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2131" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1606129850499">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2131" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606129850499" />
-    <state x="2006" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610347783190">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2006" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1610347783189" />
-    <state x="2030" y="297" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1606130894029">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2030" y="297" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606130894029" />
-    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1607602384339">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607602384339" />
-    <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606205818384" />
-    <state width="1323" height="168" key="GridCell.Tab.0.bottom" timestamp="1611564634516">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1877" height="384" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771116" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.7.1920.1040@0.0.1366.728" timestamp="1607427176038" />
-    <state width="1323" height="168" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-153.1920.1040@0.0.1366.728" timestamp="1611564634516" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-153.1920.1040@1366.-153.1920.1040" timestamp="1611221661788" />
-    <state width="1323" height="108" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610978221361" />
-    <state width="1877" height="413" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611149862842" />
-    <state width="1323" height="168" key="GridCell.Tab.0.center" timestamp="1611564634516">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1877" height="384" key="GridCell.Tab.0.center/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771116" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.7.1920.1040@0.0.1366.728" timestamp="1607427176037" />
-    <state width="1323" height="168" key="GridCell.Tab.0.center/0.0.1366.728/1366.-153.1920.1040@0.0.1366.728" timestamp="1611564634516" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1366.728/1366.-153.1920.1040@1366.-153.1920.1040" timestamp="1611221661788" />
-    <state width="1323" height="108" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610978221361" />
-    <state width="1877" height="413" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611149862842" />
-    <state width="1323" height="168" key="GridCell.Tab.0.left" timestamp="1611564634516">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1877" height="384" key="GridCell.Tab.0.left/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771116" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.7.1920.1040@0.0.1366.728" timestamp="1607427176037" />
-    <state width="1323" height="168" key="GridCell.Tab.0.left/0.0.1366.728/1366.-153.1920.1040@0.0.1366.728" timestamp="1611564634516" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1366.728/1366.-153.1920.1040@1366.-153.1920.1040" timestamp="1611221661787" />
-    <state width="1323" height="108" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610978221361" />
-    <state width="1877" height="413" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611149862842" />
-    <state width="1323" height="168" key="GridCell.Tab.0.right" timestamp="1611564634516">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1877" height="384" key="GridCell.Tab.0.right/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771116" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.7.1920.1040@0.0.1366.728" timestamp="1607427176038" />
-    <state width="1323" height="168" key="GridCell.Tab.0.right/0.0.1366.728/1366.-153.1920.1040@0.0.1366.728" timestamp="1611564634516" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1366.728/1366.-153.1920.1040@1366.-153.1920.1040" timestamp="1611221661788" />
-    <state width="1323" height="108" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610978221361" />
-    <state width="1877" height="413" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611149862842" />
-    <state width="1877" height="384" key="GridCell.Tab.1.bottom" timestamp="1607607236743">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="384" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771117" />
-    <state width="1877" height="384" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607607236743" />
-    <state width="1877" height="384" key="GridCell.Tab.1.center" timestamp="1607607236743">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="384" key="GridCell.Tab.1.center/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771117" />
-    <state width="1877" height="384" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607607236743" />
-    <state width="1877" height="384" key="GridCell.Tab.1.left" timestamp="1607607236743">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="384" key="GridCell.Tab.1.left/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771117" />
-    <state width="1877" height="384" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607607236743" />
-    <state width="1877" height="384" key="GridCell.Tab.1.right" timestamp="1607607236743">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="384" key="GridCell.Tab.1.right/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771117" />
-    <state width="1877" height="384" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607607236743" />
-    <state x="2069" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608558724672">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607604723570" />
-    <state x="2069" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1608558724672" />
-    <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1610590238183">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="0" y="0" width="585" height="728" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610590238183" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1611564505212">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728/1366.-153.1920.1040@0.0.1366.728" timestamp="1611564505212" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
