@@ -1,0 +1,39 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1" date="1611665716504" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 1/26/2021 4:55 PM [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/Test/TaskPage.class" />
+    <option name="AFTER_PATH" value="target/classes/Test/TaskPage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/TaskPage.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/Test/LoginPage.class" />
+    <option name="AFTER_PATH" value="target/classes/Test/LoginPage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/LoginPage.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/BasePages/LoginBase.class" />
+    <option name="AFTER_PATH" value="target/classes/BasePages/LoginBase.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/LoginBase.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/Test/MainPage.class" />
+    <option name="AFTER_PATH" value="target/classes/Test/MainPage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/MainPage.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/BasePages/BasePage.class" />
+    <option name="AFTER_PATH" value="target/classes/BasePages/BasePage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/BasePage.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/BasePages/TaskBase.class" />
+    <option name="AFTER_PATH" value="target/classes/BasePages/TaskBase.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/TaskBase.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/Test/UserDetail.class" />
+    <option name="AFTER_PATH" value="target/classes/Test/UserDetail.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/UserDetail.class" />
+  </binary>
+</changelist>

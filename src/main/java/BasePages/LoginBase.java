@@ -37,7 +37,7 @@ public LoginBase isCorrect (){
 public LoginBase login (String login,  String log )    {
 
     driver.findElement(By.id("email")).sendKeys(login);
-    driver.findElement(By.id("email")).sendKeys(log);
+    //driver.findElement(By.id("email")).sendKeys(log);
 
 
     return this;
@@ -47,7 +47,7 @@ public LoginBase login (String login,  String log )    {
 public LoginBase pass (String pass, String pas)  {
 
         driver.findElement(By.id("password")).sendKeys(pass);
-        driver.findElement(By.id("password")).sendKeys(pas);
+        //driver.findElement(By.id("password")).sendKeys(pas);
         return this;
     }
 

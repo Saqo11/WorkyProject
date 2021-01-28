@@ -29,7 +29,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dafa0d2-4d98-4f63-86d1-02767cdb36f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasePages/LoginBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePages/LoginBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasePages/TaskBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePages/TaskBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BasePages/LoginBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasePages/LoginBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BasePages/TaskBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasePages/TaskBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +49,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="23898ce18cdff648f97998b6791e90fb6b9d0ed9" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -59,24 +69,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.TaskPage (1)">
-    <configuration name="LoginPage.Positive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WorkyRappy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.LoginPage" />
-      <option name="METHOD_NAME" value="Positive" />
-      <option name="TEST_OBJECT" value="method" />
+  <component name="RunManager" selected="JUnit.TaskPage.ClickViewButtonChangeProjectTag">
+    <configuration name="All in junit5-allure-report" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-allure-report" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskPage (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskPage.ClickViewButtonChangeProjectTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5-allure-report" />
       <extension name="coverage">
         <pattern>
@@ -86,13 +88,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="ClickViewButtonChangeProjectTag" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WorkyRappy" />
+    <configuration name="TaskPage.ClickViewButtonTellUsMore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-allure-report" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Test.*" />
@@ -101,13 +104,30 @@
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="ClickViewButtonTellUsMore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskPage.ProjectTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-allure-report" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
+      <option name="METHOD_NAME" value="ProjectTag" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TaskPage.ProjectTags" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WorkyRappy" />
+      <module name="junit5-allure-report" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Test.*" />
@@ -122,27 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test in WorkyRappy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WorkyRappy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TaskPage (1)" />
-        <item itemvalue="JUnit.LoginPage.Positive" />
-        <item itemvalue="JUnit.TaskPage" />
+        <item itemvalue="JUnit.TaskPage.ClickViewButtonChangeProjectTag" />
+        <item itemvalue="JUnit.TaskPage.ClickViewButtonTellUsMore" />
+        <item itemvalue="JUnit.All in junit5-allure-report" />
+        <item itemvalue="JUnit.TaskPage.ProjectTag" />
         <item itemvalue="JUnit.TaskPage.ProjectTags" />
-        <item itemvalue="JUnit.Test in WorkyRappy" />
       </list>
     </recent_temporary>
   </component>
@@ -234,19 +240,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>42</line>
-          <properties class="Test.TaskPage" method="TuskPlay">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
           <line>158</line>
           <properties class="Test.TaskPage" method="ClickViewButtonChangeProjectTag">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="34" />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
+          <line>169</line>
+          <properties class="Test.TaskPage" method="ClickViewButtonTellUsMore">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>

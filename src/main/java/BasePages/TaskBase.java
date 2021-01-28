@@ -135,7 +135,7 @@ public   TaskBase  ChooseProjectTags(){
           click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div/ul/div/li[3]/span[2]"));
           click(By.xpath("//div[@class='tagsProjectsWrapper___2auP8']"));
           //isElementDisplayed(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[19]/span[2]"));
-          click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div/ul/div/li[6]/span[2]"));
+          click(By.xpath("//span[text()='Doesntdelete']"));
 
         return  this;
 
@@ -146,7 +146,7 @@ public   TaskBase  ChooseSeveralTags(){
           click(By.xpath("//span[text()='Doesntdelete']"));
           click(By.xpath("//div[@class='tagsProjectsWrapper___2auP8']"));
           //isElementDisplayed(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[19]/span[2]"));
-          click(By.xpath("//span[text()='test']"));
+          click(By.xpath("//span[text()='FortestDoesntdelete']"));
           click(By.xpath("//div[@class='tagsProjectsWrapper___2auP8']"));
           //isElementDisplayed(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[24]/span[2]"));
           //click(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li[24]/span[2]"));
@@ -236,7 +236,7 @@ public  TaskBase TheTaskTableMenu(){
          isElementDisplayed(By.xpath("//button[@class='ant-btn play-btn']"));
          Actions actions = new Actions(driver);
          actions.moveToElement(driver.findElement(By.xpath("//*[@id=\"primaryLayout\"]/main/div/div[4]/div[1]/div/div/div/div/div/div/table/tbody/tr[1]"))).build().perform();
-         isElementDisplayed(By.xpath("//span[@class='icon-with-bg']"));
+         //isElementDisplayed(By.xpath("//span[@class='icon-with-bg']"));
 
 
         return  this;
@@ -278,7 +278,7 @@ public  TaskBase viewChangeProjectTag () throws InterruptedException {
         click(By.xpath("//span[@class='projectName___XDIry']"));
         Thread.sleep(2000);
 
-    click(By.xpath("//span[text()='test']"));
+    click(By.xpath("//span[text()='FortestDoesntdelete']"));
 
 
       click(By.xpath("//span[@class='projectName___XDIry']"));
