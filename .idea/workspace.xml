@@ -29,12 +29,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dafa0d2-4d98-4f63-86d1-02767cdb36f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkyProject" beforeDir="false" afterPath="$PROJECT_DIR$/WorkyProject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BasePages/LoginBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePages/LoginBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasePages/TaskBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasePages/TaskBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/TaskPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/TaskPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/UserDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/UserDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/BasePages/LoginBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasePages/LoginBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BasePages/TaskBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasePages/TaskBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/TaskPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/TaskPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/UserDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/UserDetail.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +59,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
@@ -69,16 +74,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.TaskPage.ClickViewButtonChangeProjectTag">
-    <configuration name="All in junit5-allure-report" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5-allure-report" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskPage.ClickViewButtonChangeProjectTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TaskPage.groupTusk">
+    <configuration name="LoginPage.Positive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5-allure-report" />
       <extension name="coverage">
         <pattern>
@@ -87,40 +84,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
-      <option name="METHOD_NAME" value="ClickViewButtonChangeProjectTag" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskPage.ClickViewButtonTellUsMore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5-allure-report" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
-      <option name="METHOD_NAME" value="ClickViewButtonTellUsMore" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskPage.ProjectTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5-allure-report" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
-      <option name="METHOD_NAME" value="ProjectTag" />
+      <option name="MAIN_CLASS_NAME" value="Test.LoginPage" />
+      <option name="METHOD_NAME" value="Positive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,13 +107,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskPage.TuskPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-allure-report" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
+      <option name="METHOD_NAME" value="TuskPlay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskPage.groupTusk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-allure-report" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
+      <option name="METHOD_NAME" value="groupTusk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-allure-report" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.UserDetail" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TaskPage.ClickViewButtonChangeProjectTag" />
-        <item itemvalue="JUnit.TaskPage.ClickViewButtonTellUsMore" />
-        <item itemvalue="JUnit.All in junit5-allure-report" />
-        <item itemvalue="JUnit.TaskPage.ProjectTag" />
+        <item itemvalue="JUnit.TaskPage.groupTusk" />
+        <item itemvalue="JUnit.UserDetail" />
         <item itemvalue="JUnit.TaskPage.ProjectTags" />
+        <item itemvalue="JUnit.TaskPage.TuskPlay" />
+        <item itemvalue="JUnit.LoginPage.Positive" />
       </list>
     </recent_temporary>
   </component>
@@ -232,14 +244,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>207</line>
-          <properties class="Test.TaskPage" method="groupTusk">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
           <line>158</line>
           <properties class="Test.TaskPage" method="ClickViewButtonChangeProjectTag">
             <option name="EMULATED" value="true" />
@@ -253,6 +257,22 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Test/LoginPage.java</url>
+          <line>8</line>
+          <properties class="Test.LoginPage" method="Positive">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
+          <line>207</line>
+          <properties class="Test.TaskPage" method="groupTusk">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
