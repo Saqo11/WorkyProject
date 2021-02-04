@@ -29,86 +29,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dafa0d2-4d98-4f63-86d1-02767cdb36f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/bin/allure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/bin/allure.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/config/allure-cucumber.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/config/allure-junit.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/config/allure.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/allure-commandline-2.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/allure-generator-2.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/allure-plugin-api-2.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/allure1-model-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/allure2-model-api-1.0-BETA4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/allure2-model-jackson-1.0-BETA4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/allure2-model-pojo-1.0-BETA4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/commons-codec-1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/commons-io-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/config/jetty-logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/config/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/flexmark-0.27.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/flexmark-util-0.27.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/freemarker-2.3.23.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/httpclient-4.5.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/httpcore-4.4.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jackson-core-2.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jackson-databind-2.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jackson-dataformat-xml-2.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jackson-dataformat-yaml-2.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jackson-module-jaxb-annotations-2.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jaxb-api-2.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jaxb-utils-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jcommander-1.72.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jetty-http-9.4.7.v20170914.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jetty-io-9.4.7.v20170914.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jetty-server-9.4.7.v20170914.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/jetty-util-9.4.7.v20170914.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/properties-2.0.RC5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/slf4j-log4j12-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/snakeyaml-1.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/stax2-api-3.1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/tika-core-1.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/lib/woodstox-core-5.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/behaviors-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/behaviors-plugin/plugin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/behaviors-plugin/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/custom-logo-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/custom-logo-plugin/static/custom-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/custom-logo-plugin/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/junit-xml-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/junit-xml-plugin/junit-xml-plugin-2.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/packages-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/packages-plugin/plugin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/packages-plugin/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/screen-diff-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/screen-diff-plugin/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/screen-diff-plugin/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/trx-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/trx-plugin/trx-plugin-2.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/xctest-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/xctest-plugin/xctest-plugin-2.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/xunit-xml-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.allure/allure-2.4.1/plugins/xunit-xml-plugin/xunit-xml-plugin-2.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml.versionsBackup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/49127fa0-0bb0-494f-8f37-61fbed099987-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/baf9ebbc-05c3-42a9-81d6-2644f63d4ac9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c694a870-cf67-4c32-8135-824d8f01e505-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WorkyRappy-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,15 +73,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.LoginPage.Positive">
-    <configuration name="All in junit5-allure-report" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5-allure-report" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LoginPage.Negative">
     <configuration name="LoginPage.Negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WorkyRappy" />
       <extension name="coverage">
@@ -168,6 +85,22 @@
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.LoginPage" />
       <option name="METHOD_NAME" value="Negative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPage.NegativePass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure-junit5-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.LoginPage" />
+      <option name="METHOD_NAME" value="NegativePass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -221,13 +154,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="WorkyRappy" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="WorkyRappy" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginPage.Positive" />
         <item itemvalue="JUnit.LoginPage.Negative" />
+        <item itemvalue="JUnit.LoginPage.NegativePass" />
+        <item itemvalue="JUnit.LoginPage.Positive" />
         <item itemvalue="JUnit.TaskPage.ClickViewButtonChangeProjectTag" />
         <item itemvalue="JUnit.TaskPage.ClickViewButtonTellUsMore" />
-        <item itemvalue="JUnit.All in junit5-allure-report" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +252,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
           <line>68</line>
-          <properties class="Test.TaskPage" method="AddATagName">
+          <properties class="Test.TaskPage" method="AddATag">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="4" />
@@ -280,7 +260,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
           <line>121</line>
-          <properties class="Test.TaskPage">
+          <properties class="Test.TaskPage" method="TheTasksTablePlayButton">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="12" />
@@ -288,7 +268,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
           <line>128</line>
-          <properties class="Test.TaskPage">
+          <properties class="Test.TaskPage" method="TaskTableHover">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="13" />
@@ -296,7 +276,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
           <line>80</line>
-          <properties class="Test.TaskPage">
+          <properties class="Test.TaskPage" method="ManualMode">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="20" />
@@ -304,7 +284,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
           <line>207</line>
-          <properties class="Test.TaskPage">
+          <properties class="Test.TaskPage" method="groupTusk">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="21" />
@@ -312,7 +292,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
           <line>158</line>
-          <properties class="Test.TaskPage">
+          <properties class="Test.TaskPage" method="ClickViewButtonChangeProjectTag">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="40" />
@@ -320,7 +300,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
           <line>169</line>
-          <properties class="Test.TaskPage">
+          <properties class="Test.TaskPage" method="ClickViewButtonTellUsMore">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="41" />

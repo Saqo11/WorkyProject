@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="WorkyRappy" />
+        <module name="allure-junit5-example" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="WorkyRappy" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
