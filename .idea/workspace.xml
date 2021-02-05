@@ -29,11 +29,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dafa0d2-4d98-4f63-86d1-02767cdb36f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/LoginBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/TaskBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/TaskPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/UserDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM__Default_Changelist_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_5_07_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_5_07_PM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +75,28 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/allure-jenikins-Home" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.LoginPage.Negative">
+  <component name="RunManager" selected="JUnit.TaskPage.groupTusk">
+    <configuration name="LoginPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure-junit5-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.LoginPage" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginPage.Negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WorkyRappy" />
       <extension name="coverage">
@@ -85,22 +108,6 @@
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.LoginPage" />
       <option name="METHOD_NAME" value="Negative" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPage.NegativePass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="allure-junit5-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.LoginPage" />
-      <option name="METHOD_NAME" value="NegativePass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskPage.ClickViewButtonChangeProjectTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5-allure-report" />
+    <configuration name="TaskPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure-junit5-example" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Test.*" />
@@ -132,14 +139,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
-      <option name="METHOD_NAME" value="ClickViewButtonChangeProjectTag" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskPage.ClickViewButtonTellUsMore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5-allure-report" />
+    <configuration name="TaskPage.groupTusk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure-junit5-example" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Test.*" />
@@ -148,7 +154,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
-      <option name="METHOD_NAME" value="ClickViewButtonTellUsMore" />
+      <option name="METHOD_NAME" value="groupTusk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -203,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginPage.Negative" />
-        <item itemvalue="JUnit.LoginPage.NegativePass" />
+        <item itemvalue="JUnit.TaskPage.groupTusk" />
+        <item itemvalue="JUnit.LoginPage" />
+        <item itemvalue="JUnit.TaskPage" />
         <item itemvalue="JUnit.LoginPage.Positive" />
-        <item itemvalue="JUnit.TaskPage.ClickViewButtonChangeProjectTag" />
-        <item itemvalue="JUnit.TaskPage.ClickViewButtonTellUsMore" />
+        <item itemvalue="JUnit.LoginPage.Negative" />
       </list>
     </recent_temporary>
   </component>
