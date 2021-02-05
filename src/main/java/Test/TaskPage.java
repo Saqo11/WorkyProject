@@ -18,15 +18,17 @@ public class TaskPage extends MainPage{
    @BeforeEach
     public void mainTask(){
        loginbase.goTo()
-               .login("utest202010@gmail.com")
-               .pass("12345678")
+               .login("utest202010@gmail.com","test202010@gmail.com")
+               .pass("12345678", "2345678" )
                .chooseTask()
                .isCorrect();
 
 
        taskBase    .goTO()
+                  .ResetDailyReport()
                    .removeElements()
                    .removeElements2();
+
 
 
    }
@@ -38,7 +40,7 @@ public class TaskPage extends MainPage{
 
 
     @Test
-    public  void TuskPlay () throws InterruptedException {
+    public  void TuskPlay ()  {
         taskBase
                 .addTask("TestTusk113")
                 .play();
@@ -46,7 +48,7 @@ public class TaskPage extends MainPage{
 
 
     }@Test
-    public  void ProjectTag (){
+    public  void ProjectTag () throws InterruptedException {
 
        taskBase
                 .addTask("A>B>S123!")
@@ -88,7 +90,7 @@ public class TaskPage extends MainPage{
     public  void  RunTask () throws InterruptedException {
 
        taskBase .addTask("TestTusk113")
-                .ChooseProjectTags()
+                //.ChooseProjectTags()
                .ManualClock();
 
 
@@ -154,7 +156,7 @@ public class TaskPage extends MainPage{
                 .buttonChangeTime("0000","0502");
 
     }@Test
-    public void ClickViewButtonChangeProjectTag (){
+    public void ClickViewButtonChangeProjectTag  () throws InterruptedException {
 
         taskBase
                 .addTask("TestTusk115")
@@ -181,8 +183,8 @@ public class TaskPage extends MainPage{
                 .TheTaskTableMenu()
                 .viewButton()
                 .writeCommentEditDelete("efefefefe");
-    }
-    @Test
+
+    } @Test
     public  void   dailyyReportPopup () throws InterruptedException {
 
         taskBase .addTask("TestTusk113")
@@ -191,7 +193,32 @@ public class TaskPage extends MainPage{
 
 
 
+    }@Test
+    public  void tuskNameButton() throws InterruptedException{
+
+        taskBase .addTask("TestTusk113")
+                 .ManualClock( )
+                 .tuskNameClickButton();
+
+
+
+
+
+    }@Test
+    public  void  groupTusk () throws InterruptedException{
+       taskBase
+                     groupMultipleTusk("TestTusk113");
+
+
+
+
+
+
     }
+
+
+
+
 
 
 

@@ -4,11 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BranchesTreeState">
-    <expand />
-    <select />
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dafa0d2-4d98-4f63-86d1-02767cdb36f3" name="Default Changelist" comment="" />
+    <list default="true" id="6dafa0d2-4d98-4f63-86d1-02767cdb36f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/LoginBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/TaskBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/TaskPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/UserDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_4_55_PM__Default_Changelist_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_5_07_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_26_2021_5_07_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,27 +56,81 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="23898ce18cdff648f97998b6791e90fb6b9d0ed9" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1kginkZwmsdZ2rjRATOnsZbkNjf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/allure-jenikins-Home" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.TaskPage.dailyyReportPopup">
-    <configuration name="TaskPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TaskPage.groupTusk">
+    <configuration name="LoginPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure-junit5-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.LoginPage" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPage.Negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WorkyRappy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.LoginPage" />
+      <option name="METHOD_NAME" value="Negative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPage.Positive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WorkyRappy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.LoginPage" />
+      <option name="METHOD_NAME" value="Positive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure-junit5-example" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Test.*" />
@@ -56,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskPage.ClickViewButtonTellUsMore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WorkyRappy" />
+    <configuration name="TaskPage.groupTusk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="allure-junit5-example" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Test.*" />
@@ -66,67 +154,66 @@
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
-      <option name="METHOD_NAME" value="ClickViewButtonTellUsMore" />
+      <option name="METHOD_NAME" value="groupTusk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskPage.ClickViewButtonWED" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="WorkyRappy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
-      <option name="METHOD_NAME" value="ClickViewButtonWED" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskPage.TuskPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="WorkyRappy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
-      <option name="METHOD_NAME" value="TuskPlay" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskPage.dailyyReportPopup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WorkyRappy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TaskPage" />
-      <option name="METHOD_NAME" value="dailyyReportPopup" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TaskPage.dailyyReportPopup" />
-        <item itemvalue="JUnit.TaskPage.ClickViewButtonWED" />
-        <item itemvalue="JUnit.TaskPage.ClickViewButtonTellUsMore" />
+        <item itemvalue="JUnit.TaskPage.groupTusk" />
+        <item itemvalue="JUnit.LoginPage" />
         <item itemvalue="JUnit.TaskPage" />
-        <item itemvalue="JUnit.TaskPage.TuskPlay" />
+        <item itemvalue="JUnit.LoginPage.Positive" />
+        <item itemvalue="JUnit.LoginPage.Negative" />
       </list>
     </recent_temporary>
   </component>
@@ -146,98 +233,31 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="2131" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1606129850499">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2131" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606129850499" />
-    <state x="2006" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606382859252">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2006" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606382859252" />
-    <state x="2030" y="297" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1606130894029">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2030" y="297" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606130894029" />
-    <state x="526" y="193" key="FileChooserDialogImpl" timestamp="1607602384339">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="526" y="193" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607602384339" />
-    <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1606205818384" />
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1607693715251">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="384" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771116" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.7.1920.1040@0.0.1366.728" timestamp="1607427176038" />
-    <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607604762163" />
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607693715251" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1607693715250">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="384" key="GridCell.Tab.0.center/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771116" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.7.1920.1040@0.0.1366.728" timestamp="1607427176037" />
-    <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607604762163" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607693715250" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1607693715250">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="384" key="GridCell.Tab.0.left/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771116" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.7.1920.1040@0.0.1366.728" timestamp="1607427176037" />
-    <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607604762163" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607693715250" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1607693715250">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="384" key="GridCell.Tab.0.right/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771116" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.7.1920.1040@0.0.1366.728" timestamp="1607427176038" />
-    <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607604762163" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607693715250" />
-    <state width="1877" height="384" key="GridCell.Tab.1.bottom" timestamp="1607607236743">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="384" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771117" />
-    <state width="1877" height="384" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607607236743" />
-    <state width="1877" height="384" key="GridCell.Tab.1.center" timestamp="1607607236743">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="384" key="GridCell.Tab.1.center/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771117" />
-    <state width="1877" height="384" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607607236743" />
-    <state width="1877" height="384" key="GridCell.Tab.1.left" timestamp="1607607236743">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="384" key="GridCell.Tab.1.left/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771117" />
-    <state width="1877" height="384" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607607236743" />
-    <state width="1877" height="384" key="GridCell.Tab.1.right" timestamp="1607607236743">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="384" key="GridCell.Tab.1.right/0.0.1366.728/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1607436771117" />
-    <state width="1877" height="384" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607607236743" />
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607604723570">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607604723570" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/Test/LoginPage.java</url>
-          <line>38</line>
-          <properties class="Test.LoginPage" method="NegativeEmail">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>66</line>
+          <line>68</line>
           <properties class="Test.TaskPage" method="AddATag">
             <option name="EMULATED" value="true" />
           </properties>
@@ -245,23 +265,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>107</line>
-          <properties class="Test.TaskPage" method="dailyReportPopupValidData">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>40</line>
-          <properties class="Test.TaskPage" method="TuskPlay">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>119</line>
+          <line>121</line>
           <properties class="Test.TaskPage" method="TheTasksTablePlayButton">
             <option name="EMULATED" value="true" />
           </properties>
@@ -269,7 +273,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>126</line>
+          <line>128</line>
           <properties class="Test.TaskPage" method="TaskTableHover">
             <option name="EMULATED" value="true" />
           </properties>
@@ -277,23 +281,56 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>78</line>
+          <line>80</line>
           <properties class="Test.TaskPage" method="ManualMode">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
+          <line>207</line>
+          <properties class="Test.TaskPage" method="groupTusk">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
+          <line>158</line>
+          <properties class="Test.TaskPage" method="ClickViewButtonChangeProjectTag">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
+          <line>169</line>
+          <properties class="Test.TaskPage" method="ClickViewButtonTellUsMore">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>128</line>
+          <line>130</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Test/TaskPage.java</url>
-          <line>131</line>
+          <line>133</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test/LoginPage.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
