@@ -207,7 +207,7 @@ public class TaskPage extends MainPage{
     }@Test
     public  void  groupTusk () throws InterruptedException{
        taskBase
-                     .groupMultipleTusk("TestTusk113");
+                     groupMultipleTusk("TestTusk113");
 
 
 
